@@ -19,9 +19,9 @@ var app = new Framework7({
     	name: 'home',
   		},
 		{
-		path: '/brands/',
-    	url: 'brands.html',
-    	name: 'brands',
+		path: '/aprender/',
+    	url: 'aprender.html',
+    	name: 'aprender',
   		},
 	],
 	dialog: {
