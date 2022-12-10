@@ -200,6 +200,7 @@ h1,h2,h3,h4,h5,h6,p{
 	color: #242230;
 	border-color: #242230;
 	border-radius: 20px;
+	border-width: thick;
 
 }
 
@@ -209,9 +210,13 @@ h1,h2,h3,h4,h5,h6,p{
 	border-radius: 35px;
 }
 
-
-
-
+.boton-audio{
+	background-color: #BE102A;
+	padding-top: 2px;
+}
+.boton-audio i{
+	padding-top: 4px;
+}
 
 
 
