@@ -14,8 +14,13 @@ var app = new Framework7({
 	modalTitle: 'AppBase',
   	routes: [
 		{
+		path: '/inicio/',
+    	url: 'inicio.html',
+    	name: 'inicio',
+  		},
+		{
 		path: '/home/',
-    	url: 'index.html',
+    	url: 'homepage.html',
     	name: 'home',
   		},
 		{
@@ -28,6 +33,23 @@ var app = new Framework7({
     	url: 'leccion.html',
     	name: 'leccion',
   		},
+		{
+		path: '/login/',
+    	url: 'login.html',
+    	name: 'login',
+  		},
+		{
+		path: '/ejercicio/',
+    	url: 'ejercicio.html',
+    	name: 'ejercicio',
+  		},
+		{
+		path: '/confirmacion/',
+    	url: 'confirmacion.html',
+    	name: 'confirmacion',
+  		},
+		
+		
 	],
 	dialog: {
 		title: 'AppBase',

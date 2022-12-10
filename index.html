@@ -3,135 +3,80 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Homepage</title>
+<title>Kanjimon</title>
 <link href="css/framework7.bundle.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 
 </head>
-
 <body>
+
+
 <div id="app">
-<div class="view view-main view-init">
+	<div class="view view-main view-init">
+		
+
+		
 	<section data-name="home" class="page">
+          <!-- Top Navbar -->
+		
 
-     
 
-			<section class="page-content">
-				<!-- Top Navbar -->
-				<nav class="navbar">
-							<div class="navbar-bg"></div>
-							<div class="navbar-inner">
-								<div class="left">
-									<a href="#" class="link"><span class="material-icons">account_circle</span></a>
-								</div>
-								<div class="title"></div>
-								<div class="right">
-									<a href="#" class="link"><span class="material-icons">search</span></a>
-								</div>
-							</div>
-				</nav>
-				<div class="welcome">
-					<div class="row">
-						<article class="col-75">
-							<h1>¡Hola, Mario!</h1>
-							<p>Tu última lección estudiada fue <br> Lección 7.4: Decir lo que harás</p>
-						</article>
-						<article class="col-25">
-							
-						</article>					
-					</div>
-				</div>
+			<section id="splash" class="page-content">
+				<img src="img/Group 415.png" class="img-fluid" alt="">
+				<h1>Bienvenido</h1>
+					
+				  <div class="block">   
+				  <p>Una aplicación para aprender japonés en la que tu avance determina el avance de una criatura japonesa que será tu <u>compañero de estudio</u>.</p>  
+					  
+					  <p>Avanza en tus lecciones y tu compañero de estudio evolucionará; no cumplas con tus lecciones y tu compañero de estudio perderá energía. </p> 
+					  <a href="/inicio/" class="button button-fill boton-vamos">¡Vamos!</a>
+				  </div> 
+			   
 
-				<div class="semana">
-					<h2>Tu semana</h2>
-					<p>desde 15 de agosto, 2022, hasta 21 de agosto, 2022</p>
-					<div class="row">
-						<article class="col-15">
-							<img src="img/semana/lun.png" class="img-fluid" alt="">
-						</article>
-						<article class="col-15">
-							<img src="img/semana/mar.png" class="img-fluid" alt="">
-						</article>
-						<article class="col-15">
-							<img src="img/semana/mie.png" class="img-fluid" alt="">
-						</article>
-						<article class="col-15">
-							<img src="img/semana/jue.png" class="img-fluid" alt="">
-						</article>
-						<article class="col-15">
-							<img src="img/semana/vie.png" class="img-fluid" alt="">
-						</article>
-						<article class="col-15">
-							<img src="img/semana/sa.png" class="img-fluid" alt="">
-						</article>
-						<article class="col-15">
-							<img src="img/semana/do.png" class="img-fluid" alt="">
-						</article>
-					</div>
-				</div>
-				
-				<div class="mascota">
-					<h2>Tu mascota</h2>
-					<div class="row">
-						<article class="col-50">
-							<img src="img/mascotas/akabeko.png" class="img-fluid" alt="">
-						</article>
-						<article class="col-50">
-							<h3>Kopi</h3>
-							<a href="#" class="button">Ver mascota</a>
-						</article>
-					</div>
-				</div>
-				
-				<div class="opciones">
-					<h2>¿Qué harás hoy?</h2>
-					<div class="card"><a href="/leccion/" class="link">
-						<div class="card-content card-content-padding"><h3>Próxima lección</h3>
-							<p>Lección 1.4: Decir lo que harás</p></div></a>
-					</div>
-					<a href="#"><div class="card">
-						<div class="card-content card-content-padding"><h3>Vocabulario</h3>
-							<p>Categoría: Animales</p></div>
-					</div></a>
-					<a href="#"><div class="card">
-						<div class="card-content card-content-padding"><h3>Escritura</h3>
-							<p>Practicar hiragana</p></div>
-					</div></a>
-				</div>
-							
-				
-	
 			</section>
 			
         </section>
+				  <p>Una aplicación para aprender japonés en la que tu avance determina el avance de una criatura japonesa que será tu <u>compañero de estudio</u>.</p> 
+		
+		
+		<nav class="toolbar toolbar-bottom tabbar tabbar-labels">
+				  <div class="toolbar-inner">
+					<a href="/home/" class="link">
+						<i class="material-icons">home</i>
+						<span class="tabbar-label">Inicio</span>
+					</a>
+					<a href="/aprender/" class="link">
+						<i class="material-icons">local_library</i><span class="tabbar-label">Aprender</span>
+					</a>
+					<a href="#" class="link">
+						<i class="material-icons">pets</i><span class="tabbar-label">Mascota</span>
+					</a>
+					<a href="/cart/" class="link">
+						<i class="material-icons">translate</i><span class="tabbar-label">Escritura</span>
+					</a>
+					<a href="#" class="link">
+						<i class="material-icons">book</i><span class="tabbar-label">Vocabulario</span>
+					</a>
+				  </div>
+		</nav>
+    </div>
 	
-	<nav class="toolbar toolbar-bottom tabbar tabbar-labels">
-			  <div class="toolbar-inner">
-				<a href="/home/" class="link">
-					<i class="material-icons">home</i>
-					<span class="tabbar-label">Inicio</span>
-				</a>
-				<a href="/aprender/" class="link">
-					<i class="material-icons">local_library</i><span class="tabbar-label">Aprender</span>
-				</a>
-				<a href="#" class="link">
-					<i class="material-icons">pets</i><span class="tabbar-label">Mascota</span>
-				</a>
-				<a href="/cart/" class="link">
-					<i class="material-icons">translate</i><span class="tabbar-label">Escritura</span>
-				</a>
-				<a href="#" class="link">
-					<i class="material-icons">book</i><span class="tabbar-label">Vocabulario</span>
-				</a>
-			  </div>
-	</nav>
 	
-	</div>
-	</div>
-
-</body>
-
+	
+	
+	
+	
+	
+	
+	
+</div>
+	
+	
+	
+	
 	<script src="js/framework7.bundle.min.js"></script>
 	<script src="js/app.js"></script>
+	
+</body>
 </html>

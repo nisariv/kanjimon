@@ -26,6 +26,24 @@ body{
 	color: #1E1E1E;
 	background-color: var(--color-beige);
 }
+
+#splash{
+	background-color: #242230;
+	color: #F4F4F4;
+	
+} 
+#splash h1{
+	text-align: center;
+}
+.boton-vamos{
+	background-color: #F15C73;
+	color: #FFFAF4;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: capitalize;
+	border-radius: 40px;
+	margin-top: 20px;
+}
 .page{
 		background-color: var(--color-beige);
 }
@@ -48,7 +66,7 @@ h1,h2,h3,h4,h5,h6,p{
 .boton-iniciar{
 	background-color:  #5252D4;
 	color: #FFFAF4;
-	padding: 10%;
+	padding: 5% 10% 17%;
     margin-bottom: 20%;
 	margin-top: 50%;
 	border-bottom-right-radius: 50px;
@@ -61,11 +79,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 
-
 .boton-crear{
 	background-color: #8B8BE3;
 	color: #FFFAF4;
-	padding: 10%;
+	padding: 5% 10% 17%;
 	border-bottom-right-radius: 0px;
 	border-top-right-radius: 0px;
 	border-bottom-left-radius: 50px;
@@ -218,11 +235,55 @@ h1,h2,h3,h4,h5,h6,p{
 	padding-top: 4px;
 }
 
+.imagen{
+		background-color: #FFFFFF;
+		color: #000000;
+		margin-bottom: 30px;
+	
+}
+.imagen p{ 
+margin-left: 20px; 
+		margin-right: 20px; 
+} 
+.imagen .button{ 
 
+background-color: #BE102A;
+	color: #FFFAF4;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize; 
+	border-radius: 40px;
+	margin-top: 10px;
+} 
+#boton2{  
+	margin-top: 20px;
+	margin-left: 120px;
+}
 
+.button-red{
+	background-color: #BE102A;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: none;
+	margin-top: 10px;
+	border-radius: 20px;
+	
+}
 
+.button-white{
+	color: #BE102A;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: none;
+	margin-top: 10px;
+	border-radius: 20px;
+	border-color: #BE102A;
+}
 
-
+.thumbs-up{
+	align: center;
+}
 
 
 
