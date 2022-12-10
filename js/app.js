@@ -23,6 +23,11 @@ var app = new Framework7({
     	url: 'aprender.html',
     	name: 'aprender',
   		},
+		{
+		path: '/leccion/',
+    	url: 'leccion.html',
+    	name: 'leccion',
+  		},
 	],
 	dialog: {
 		title: 'AppBase',

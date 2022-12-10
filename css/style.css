@@ -40,6 +40,40 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
+
+.inicio{
+	background-color: #FFFAF4;
+}
+
+.boton-iniciar{
+	background-color:  #5252D4;
+	color: #FFFAF4;
+	padding: 10%;
+    margin-bottom: 20%;
+	margin-top: 50%;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	font-size:20px;
+	font-weight: 400;
+	text-transform: none;
+
+}
+
+
+.boton-crear{
+	background-color: #8B8BE3;
+	color: #FFFAF4;
+	padding: 10%;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	font-size:20px;
+	font-weight: 400;
+	text-transform: none;
+}
 .welcome{
 	background-color: var(--f7-theme-color);
 	padding: 25px 20px;
@@ -115,6 +149,65 @@ h1,h2,h3,h4,h5,h6,p{
 	width: 100%;
 }
 
+.inicio p{
+	margin: auto;
+}
+
+.card-intentalo{
+	background-color: #242230;
+	color: #FFFAF4;
+	padding: 8% 0;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	font-size:12px;
+
+}
+ .intentalo{
+	margin-top: -18px;
+	 font-weight: 400;
+	margin-left: 15px;
+}
+
+.encabezado{
+	padding-top: 15%;
+	margin-left: -15px;
+	color: #242230;
+}
+
+.instrucciones {
+	color: #242230;
+	margin: 5px 15px;
+}
+
+.texto-ejercicio{
+	
+	color: #242230;
+	
+}
+
+.card-caracter{
+	background-color: #5252D4;
+	text-align: center;
+	color: #FFFAF4;
+	padding: 7px 0;
+	border-radius: 25px;
+}
+
+.card-caracteres{
+	background-color: #FFF;
+	color: #242230;
+	border-color: #242230;
+	border-radius: 20px;
+
+}
+
+.boton-continuar{
+	background-color: #BE102A;
+	Color: #ffff;
+	border-radius: 35px;
+}
 
 
 
