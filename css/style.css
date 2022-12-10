@@ -327,4 +327,22 @@ margin-left: 20px;
 	color: #5252d1;
 	padding-top: 4px;
 }
+#escritura h2{
+	margin: 15px;
+}
+.card-katakana{
+	background-color: #5252d1;
+	border-radius: 20px;
+	margin-top: 15px;
+}
 
+.card-hiragana{
+	background-color: #8b8be0;
+	border-radius: 20px;
+	margin-top: 15px;
+	color: #232230;
+}
+
+#about ul{
+	list-style: none;
+}

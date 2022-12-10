@@ -53,6 +53,16 @@ var app = new Framework7({
     	url: 'lecciones.html',
     	name: 'lecciones',
   		},
+		{
+		path: '/escritura/',
+    	url: 'escritura.html',
+    	name: 'escritura',
+  		},
+		{
+		path: '/about/',
+    	url: 'about.html',
+    	name: 'about',
+  		},
 		
 		
 	],
