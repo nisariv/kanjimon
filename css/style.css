@@ -95,6 +95,7 @@ h1,h2,h3,h4,h5,h6,p{
 	background-color: var(--f7-theme-color);
 	padding: 25px 20px;
 	color: #fff;
+	border-bottom-right-radius: 40px;
 }
 .welcome h1{
 	font-size: 24px;
@@ -223,8 +224,12 @@ h1,h2,h3,h4,h5,h6,p{
 
 .boton-continuar{
 	background-color: #BE102A;
-	Color: #ffff;
-	border-radius: 35px;
+	color: #FFFAF4;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize; 
+	border-radius: 40px;
+	margin-top: 10px;
 }
 
 .boton-audio{
@@ -236,7 +241,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .imagen{
-		background-color: #FFFFFF;
+		background-color: #FFFAF4;
 		color: #000000;
 		margin-bottom: 30px;
 	
@@ -246,14 +251,7 @@ margin-left: 20px;
 		margin-right: 20px; 
 } 
 .imagen .button{ 
-
-background-color: #BE102A;
-	color: #FFFAF4;
-	font-size: 14px;
-	font-weight: 400;
-	text-transform: capitalize; 
-	border-radius: 40px;
-	margin-top: 10px;
+	
 } 
 #boton2{  
 	margin-top: 20px;
@@ -302,4 +300,31 @@ background-color: #BE102A;
 	padding-top: 230%;
 }
 
+.decir{
+	background-color: var(--f7-theme-color);
+	padding: 90px 20px 25px;
+	color: #fff;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+.decir h1{
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+#leccion .card{
+	background-color: #5252d1;
+	border-radius: 0;
+	border-bottom-right-radius: 90px;
+	border-top-right-radius: 90px;
+	margin: 15px 20px 15px 0;
+}
+.boton-audio2{
+	background-color: #fefaf4;
+	padding-top: 2px;
+	margin: 0 9px;
+}
+.boton-audio2 i{
+	color: #5252d1;
+	padding-top: 4px;
+}
 
