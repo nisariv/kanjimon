@@ -285,9 +285,21 @@ background-color: #BE102A;
 	align: center;
 }
 
+#products .card{
+	background-color: #5252d1;
+	border-radius: 10px;
+}
 
+#products i{
+	color: #fff;
+	font-size: 20px;
+}
+.tiempo{
+	font-size: 15px;
+}
 
-
-
+.video{
+	padding-top: 230%;
+}
 
 

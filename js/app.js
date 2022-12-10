@@ -48,6 +48,11 @@ var app = new Framework7({
     	url: 'confirmacion.html',
     	name: 'confirmacion',
   		},
+		{
+		path: '/lecciones/',
+    	url: 'lecciones.html',
+    	name: 'lecciones',
+  		},
 		
 		
 	],
